@@ -49,4 +49,80 @@ img {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.header_logo {
+  background-color: #DF7C14;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 155%;
+  color: #fff;
+}
+
+.header_map {
+  padding-top: 20px;
+  margin-left: 23px;
+}
+
+.manu {
+  float: right;
+  margin-right: 24px;
+}
+
+@media screen and (min-width: 992) {
+  .logo2 {
+    display: none;
+  }
+}
+.home_about {
+  text-align: center;
+  margin-top: 62px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 180%;
+  color: #222;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 33px;
+}
+
+.home_about_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 187%;
+  text-align: center;
+  color: #898989;
+  margin-left: 58px;
+  margin-right: 58px;
+  margin-top: 33px;
+}
+
+@media screen and (min-width: 992px) {
+  .home_about {
+    width: 942px;
+    height: 152px;
+  }
+}
+.section2_logos {
+  background: #f4f4f4;
+  border-radius: 10px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 29px;
+  margin-right: 29px;
 }/*# sourceMappingURL=main.css.map */

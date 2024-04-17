@@ -1,0 +1,32 @@
+.header_logo{
+    background-color: #DF7C14;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 155%;
+color: #fff;
+
+}
+.header_map{
+ padding-top: 20px;
+ margin-left: 23px;
+
+}
+.manu{
+    float:right;
+    margin-right: 24px;
+    
+}
+
+
+@media screen and (min-width:992) {
+   
+    .logo2{
+        display: none;
+    }
+}
