@@ -2,8 +2,21 @@
     background: #f4f4f4;
     border-radius: 10px;
 height: 188px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 29px;
-margin-right: 29px;
+margin-right: 25px;
+margin-left: 25px;
+text-align: center;
+margin-top: 70px;
+
+}
+.section2_logo{
+    width: 111px;
+height: 54px;
+margin-right: 32px;
+margin-top: 35px;
+}
+@media screen and (min-width:992px) {
+    .section2_logos{
+        height: 180px;
+        gap: 225px;
+    }  
 }
